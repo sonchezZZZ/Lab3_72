@@ -7,6 +7,7 @@
 .container{
 	width: 980px;
 	margin: 0 auto;
+    height: 100%;
 }
 
 /* HEADER */
@@ -70,6 +71,33 @@ header{
 }
 
 
+/*HEADER CONTENT*/
+
+.main-header{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header>img{
+    width: 25%;
+}
+
+.content-header{
+    width: 50%;
+}
+
+.social_btns{
+    margin-top: 15px;
+}
+
+
+/* MAIN BLOCK-BRILLIANT */
+.block-brilliant{
+    height: 200px;
+    background: linear-gradient(to right, rgb(59, 205, 190), rgb(23,201,243));
+}
 
 
 /* FOOTER */
