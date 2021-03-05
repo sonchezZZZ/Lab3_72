@@ -95,9 +95,27 @@ header{
 
 /* MAIN BLOCK-BRILLIANT */
 .block-brilliant{
-    height: 200px;
+    /* height: 200px; */
     background: linear-gradient(to right, rgb(59, 205, 190), rgb(23,201,243));
 }
+
+.block-brilliant .container{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.content_two{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+}
+.third_block{
+    width: 33%;
+}
+
+.content_two img{
+    width: 33%;
+} 
 
 
 /* FOOTER */
